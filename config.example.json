@@ -1,0 +1,78 @@
+{
+  "watch_folder": "C:\\Users\\example\\Downloads",
+  "allowed_extensions": [
+    ".md"
+  ],
+  "temporary_extensions": [
+    ".crdownload",
+    ".part",
+    ".tmp",
+    ".download",
+    ".partial"
+  ],
+  "review_folder": "C:\\Projects\\agent-bus\\_REVIEW_MANUAL",
+  "log_folder": "C:\\Projects\\agent-bus\\_log",
+  "projects": {
+    "DEMO_PROJECT": {
+      "project_code": "DEMO",
+      "display_name": "Demo Project",
+      "root": "C:\\Projects\\demo-project",
+      "pods": [
+        "POD_MAIN"
+      ]
+    }
+  },
+  "roles": [
+    "CEO",
+    "COO",
+    "PRODUCT",
+    "ENGINEERING",
+    "REPORTER",
+    "QA",
+    "DEPUTY",
+    "SPECIALIST",
+    "BUILDER"
+  ],
+  "inbox_suffix": "_INBOX",
+  "duplicate_strategy": "overwrite",
+  "dry_run": false,
+  "scan_stable_seconds": 3,
+  "scan_stable_checks": 3,
+  "max_lock_retries": 5,
+  "lock_retry_delay_s": 1.0,
+  "reporter_hub_name": "_REPORTER_HUB",
+  "mirror_doc_types": [
+    "CEO_BRIEF",
+    "PRODUCT_LANE_PLAN",
+    "ENGINEERING_LANE_PLAN",
+    "POD_PLAN",
+    "GROWTH_POD_PLAN",
+    "QA_PLAN_REVIEW",
+    "QA_REPORT",
+    "EXECUTIVE_REVIEW",
+    "DEPUTY_CLOSURE",
+    "DEPUTY_CLOSURE_FT",
+    "PROMPT_APPROVAL",
+    "CEO_GATE_DIRECTIVE",
+    "CEO_FAST_TRACK_DECISION",
+    "COO_STATUS_PACKAGE",
+    "QA_LIGHTWEIGHT_FT",
+    "COO_POD_ASSIGNMENT",
+    "SPECIALIST_REPORT"
+  ],
+  "critical_doc_types": [
+    "CEO_BRIEF",
+    "PRODUCT_LANE_PLAN",
+    "ENGINEERING_LANE_PLAN",
+    "POD_PLAN",
+    "GROWTH_POD_PLAN",
+    "QA_PLAN_REVIEW",
+    "QA_REPORT",
+    "EXECUTIVE_REVIEW",
+    "DEPUTY_CLOSURE",
+    "DEPUTY_CLOSURE_FT",
+    "PROMPT_APPROVAL"
+  ],
+  "template_registry": "config/template_registry.json",
+  "auto_drop_inbox_packet": true
+}
